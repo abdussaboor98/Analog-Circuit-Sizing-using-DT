@@ -55,7 +55,7 @@ observation, info = env.reset()  # This will trigger the initial simulation setu
 print("Running random simulations for normalization...")
 pbar = tqdm(total=100, ncols=80, desc="Random Simulation steps", dynamic_ncols=True, position=0, leave=True)
 state_vectors = []
-for _ in range(10):  # Run 100 random simulations
+for _ in range(100):  # Run 100 random simulations
     action = np.random.uniform(env.action_space.low, env.action_space.high)
     observation, reward, terminated, truncated, info = env.step(action)
     state_vectors.append(observation)
@@ -71,15 +71,15 @@ if state_vectors:
 print("Random simulations completed!")
 
 # Training parameters
-num_steps = 15000  # Total environment steps
+num_steps = 10000  # Total environment steps
 memory_size = 50000  # Replay-memory size
 batch_size = 256  # Batch size
 noise_sigma = 1.0  # Reduced noise for more stable learning
 noise_sigma_min = 0.1
 noise_sigma_decay = 0.9995
-initial_random_steps = 1  # Initial random steps
+initial_random_steps = 500  # Initial random steps
 noise_type = 'uniform'
-plotting_interval = 100  # For frequent updates
+plotting_interval = 10000000000  # For frequent updates
 
 # Create the agent
 agent = DDPGAgent(
@@ -101,7 +101,7 @@ print("Starting training...")
 state, _ = env.reset()
 
 # Call the train function which handles the full training loop
-scores, actor_losses, critic_losses = agent.train(num_steps, plotting_interval=100)
+scores, actor_losses, critic_losses = agent.train(num_steps, plotting_interval=100000000)
 
 # Get best results
 memory = agent.memory
@@ -119,7 +119,7 @@ if save:
     os.makedirs("saved_memories", exist_ok=True)
     os.makedirs("saved_agents", exist_ok=True)
     os.makedirs("training_data", exist_ok=True)
-    os.makedirs("trajectories_ddpg", exist_ok=True)
+    os.makedirs("trajectories", exist_ok=True)
 
     # Save actor and critic weights
     model_weight_actor = agent.actor.state_dict()
@@ -153,7 +153,7 @@ if save:
         'mu': env.obs_mu,
         'sigma': env.obs_sigma
     }
-    np.savez_compressed('trajectories_ddpg/amp_rgcn_traj.npz', **arr)
+    np.savez_compressed('trajectories/amp_rgcn_traj.npz', **arr)
 
     # Save normalization stats and target specs
     json.dump({
@@ -172,7 +172,7 @@ if save:
             'sr_target': env.sr_target,
             'settlingTime_target': env.settlingTime_target
         }
-    }, open('trajectories_ddpg/norm_stats_rgcn.json', 'w'), indent=2)
+    }, open('trajectories/norm_stats_rgcn.json', 'w'), indent=2)
     
     print("\nModel weights and training data have been saved!")
 
