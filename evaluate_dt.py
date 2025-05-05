@@ -98,9 +98,9 @@ def evaluate(dt, env, window_K, episodes, max_steps, writer, spec_pairs, gamma):
 
         episode_reward, step_count, time_index, done = 0.0, 0, 0, False
         
-        # Initialize progress bar for steps
-        pbar = tqdm(total=max_steps * episodes, desc=f'Episode {episode}', 
-                   postfix={'reward': f'{episode_reward:.2f}', 'step': f'{step_count}/{max_steps * episodes}'})
+        # Initialize progress bar for this episode only
+        pbar = tqdm(total=max_steps, desc=f'Episode {episode}', 
+                   postfix={'reward': f'{episode_reward:.2f}', 'step': f'{step_count}/{max_steps}'})
 
         # Initialize RTG for this episode
         current_rtg = [0.0]  # You may want to set this to the target return if available
@@ -131,6 +131,7 @@ def evaluate(dt, env, window_K, episodes, max_steps, writer, spec_pairs, gamma):
             with torch.no_grad():
                 predicted_action = dt.generate(states_tensor, actions_tensor, rtg_tensor, timesteps_tensor, noise_std=0.0)
             action = predicted_action[:, -1].cpu().numpy().squeeze()
+            action = np.clip(action, env.action_space.low, env.action_space.high)
 
             state, reward, terminated, truncated, info = env.step(action)
             episode_reward += reward
@@ -151,7 +152,7 @@ def evaluate(dt, env, window_K, episodes, max_steps, writer, spec_pairs, gamma):
             
             # Update progress bar
             pbar.update(1)
-            pbar.set_postfix({'reward': f'{episode_reward:.2f}', 'step': f'{global_step}/{max_steps * episodes}'})
+            pbar.set_postfix({'reward': f'{episode_reward:.2f}', 'step': f'{step_count}/{max_steps}'})
 
         pbar.close()  # Close progress bar at end of episode
 
