@@ -14,6 +14,7 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import DataLoader
+from torch.utils.tensorboard import SummaryWriter
 from tqdm import tqdm
 
 from config import Config
@@ -24,7 +25,6 @@ from model import DecisionTransformer
 def train(
     config: Config,
     logdir: str,
-    eval_every: int = 1000,
 ) -> None:
     """Train Decision Transformer model.
     
@@ -40,6 +40,9 @@ def train(
     # Create log directory
     logdir = Path(logdir)
     logdir.mkdir(parents=True, exist_ok=True)
+    
+    # Initialize TensorBoard writer
+    tb_writer = SummaryWriter(log_dir=logdir / "tensorboard")
     
     # Save config
     config.to_yaml(logdir / "config.yaml")
@@ -101,6 +104,20 @@ def train(
     # Enable gradient checkpointing to save memory (trade compute for memory)
     model.gradient_checkpointing_enable()
     
+    # Skip model graph logging for TensorBoard due to tracing issues with complex models
+    # Uncomment below if needed for a simpler model
+    # dummy_input = (
+    #     torch.zeros(1, config.window_K, config.state_dim).to(config.device),  # states
+    #     torch.zeros(1, config.window_K, config.action_dim).to(config.device),  # actions
+    #     torch.zeros(1, config.window_K, 1).to(config.device),  # returns_to_go
+    #     torch.zeros(1, config.window_K, dtype=torch.long).to(config.device),  # timesteps
+    #     torch.ones(1, config.window_K).to(config.device),  # attention_mask
+    # )
+    # try:
+    #     tb_writer.add_graph(model, dummy_input)
+    # except Exception as e:
+    #     print(f"Failed to log model graph: {e}")
+    
     # Initialize optimizer and scheduler
     optimizer = optim.AdamW(
         model.parameters(),
@@ -149,6 +166,7 @@ def train(
                     # The model already predicts the action at time t based on inputs up to t-1
                     # No need to shift predictions, just compare with the current actions
                     # Apply mask to loss computation (only consider non-padded timesteps)
+                    # print(f"action_preds.shape: {action_preds.shape}, batch['actions'].shape: {batch['actions'].shape}")
                     loss = nn.MSELoss(reduction='none')(action_preds, batch["actions"])
                     
                     # Apply mask to only consider valid timesteps
@@ -171,9 +189,29 @@ def train(
                 scaler.update()
                 scheduler.step()
                 
+                # Log training metrics to TensorBoard
+                tb_writer.add_scalar('Loss/train', loss.item(), step)
+                tb_writer.add_scalar('LR', scheduler.get_last_lr()[0], step)
+                tb_writer.add_scalar('BatchTokens', valid_tokens.item(), step)
+                
+                # Calculate and log parameter and gradient norms
+                param_norm = sum(p.norm().item() ** 2 for p in model.parameters()) ** 0.5
+                tb_writer.add_scalar('Params/norm', param_norm, step)
+                
+                # Log model parameters and gradients periodically (to avoid excessive logs)
+                if step % 100 == 0:
+                    for name, param in model.named_parameters():
+                        if param.requires_grad:
+                            tb_writer.add_histogram(f"params/{name}", param.data, step)
+                            if param.grad is not None:
+                                tb_writer.add_histogram(f"grads/{name}", param.grad, step)
+                
                 # Evaluate and update progress bar
-                if step % eval_every == 0:
+                if step % config.eval_every == 0:
                     val_loss = evaluate(model, val_loader, config.device)
+                    # Log validation metrics to TensorBoard
+                    tb_writer.add_scalar('Loss/val', val_loss, step)
+                    
                     # Format: Step # [Train loss, Val loss]
                     pbar.set_description(f"Step {step} [Train: {loss.item():.4f}, Val: {val_loss:.4f}]")
                     
@@ -188,7 +226,7 @@ def train(
                                 "scheduler_state_dict": scheduler.state_dict(),
                                 "val_loss": val_loss,
                             },
-                            logdir / f"ckpt_step{step:06d}.pt",
+                            logdir / f"best_ckpt_step{step:06d}.pt",
                         )
                 else:
                     # Just update with training loss when not evaluating
@@ -215,7 +253,12 @@ def train(
                 if step >= config.max_iters:
                     break
             
+            # Clean up memory once per epoch instead of every batch
             torch.cuda.empty_cache()
+    
+    # Close TensorBoard writer
+    tb_writer.close()
+    print(f"Training finished. Logs and checkpoints saved to {logdir}")
 
 
 def evaluate(
@@ -287,7 +330,6 @@ def main():
     parser.add_argument("--config", type=str, required=True, help="Path to config YAML file")
     parser.add_argument("--csv_root", type=str, help="Override csv_root in config")
     parser.add_argument("--logdir", type=str, required=True, help="Directory to save checkpoints and logs")
-    parser.add_argument("--eval_every", type=int, default=1000, help="Evaluate every N iterations")
     args = parser.parse_args()
     
     # Load config
@@ -298,7 +340,7 @@ def main():
         config.csv_root = args.csv_root
     
     # Train model
-    train(config, args.logdir, args.eval_every)
+    train(config, args.logdir)
 
 
 if __name__ == "__main__":

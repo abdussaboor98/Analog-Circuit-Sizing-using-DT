@@ -1,5 +1,5 @@
 # Data settings
-csv_root: "traject"
+csv_root: "trajectories"
 window_K: 30
 state_dim: 348  # x, y, velocity
 action_dim: 24  # Single action dimension
@@ -7,17 +7,18 @@ use_qvalues: false  # Whether to use Q-values instead of returns-to-go
 gamma: 0.99  # Discount factor for returns-to-go calculation
 
 # Model architecture
-d_model: 8
+d_model: 64
 n_heads: 8
-n_layers: 6
+n_layers: 8
 dropout: 0.1
-n_positions: 200000
+n_positions: 200
 
 # Training settings
 lr: 3e-4
-batch_size: 16
-max_iters: 2000
-warmup_steps: 4_000
+batch_size: 64
+max_iters: 100000
+warmup_steps: 4000
 seed: 42
 save_every: 1000
+eval_every: 1000
 device: "cpu" 

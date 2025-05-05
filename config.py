@@ -57,8 +57,9 @@ class Config:
     warmup_steps: int = 4_000
     gradient_clip_norm: float = 1.0
     seed: int = 42
+    eval_every: int = 1000
     save_every: int = 5_000
-    device: str = "cpu"
+    device: str = "cuda"
     
     @classmethod
     def from_yaml(cls, yaml_path: str) -> "Config":
