@@ -1,0 +1,13 @@
+batch_size: 2
+csv_root: results
+d_model: 64
+device: cpu
+dropout: 0.1
+lr: 0.0003
+max_iters: 10
+n_heads: 4
+n_layers: 2
+save_every: 5
+seed: 42
+warmup_steps: 2
+window_K: 5

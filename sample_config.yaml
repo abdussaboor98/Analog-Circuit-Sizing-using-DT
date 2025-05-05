@@ -1,0 +1,24 @@
+# Data settings
+csv_root: "results"
+window_K: 5
+state_dim: 348  # x, y, velocity
+action_dim: 1  # Single action dimension
+use_qvalues: false  # Whether to use Q-values instead of returns-to-go
+gamma: 0.99  # Discount factor for returns-to-go calculation
+
+# Model architecture
+d_model: 64
+n_heads: 4
+n_layers: 2
+dropout: 0.1
+n_positions: 1024  # Max timestep for embedding (should be ≥ max timestep in data)
+
+# Training settings
+lr: 3e-4
+batch_size: 2
+max_iters: 10
+warmup_steps: 2
+gradient_clip_norm: 1.0
+seed: 42
+save_every: 5
+device: "cpu" 

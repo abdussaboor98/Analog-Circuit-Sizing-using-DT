@@ -1,0 +1,5 @@
+python3 evaluate_ddpg.py --ckpt best_agent_episode_1_reward_-782.26.pth --episodes 30  --max_steps 10  
+
+python3 evaluate_dt.py --dt_ckpt  'run_1/ckpt_step019000.pt' --dt_cfg  'run_1/config.yaml' --episodes 100 --max_steps 20
+
+python3 evaluate_dt.py --dt_ckpt  'run_3/best_ckpt_step037000.pt' --dt_cfg  'run_3/config.yaml' --episodes 100 --max_steps 200  

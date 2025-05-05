@@ -1,0 +1,1905 @@
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_ACDC.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_Tran.log
+
+Register the environment
+Setting up environment...
+*** Simulations Done! ***
+Running random simulations for normalization...
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_ACDC.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_Tran.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_ACDC.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_Tran.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_ACDC.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_Tran.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_ACDC.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_Tran.log
+
+action: [3.229792067416256 2.043404877313408 26.902970635156258 3.056195824015186
+ 3.941120296717801 44.45259441639261 3.2123361459840485 3.918970677216257
+ 29.396257836685997 2.4326626577534713 2.066189077207383
+ 375.88881826845056 1.2676834002493913 1.8579008981810068
+ 31.398494999068664 3.4900614265457444 1.8703678288759429
+ 16.00942531897596 6.639525715242836 3.3559074637755066 9.888591560828871
+ 3.5614343222868605e-06 37.63365890462276 39.18529308256464]
+*** Simulations Done! ***
+| param                    |             num | target    |
+|--------------------------+-----------------+-----------|
+| TC                       |      0.00000185 | 1e-06     |
+| Power                    |    209.23884000 | 200.0     |
+| vos                      |      0.00014590 | 4e-05     |
+| cmrrdc                   |    -57.02452000 | -80       |
+| dcgain                   |    123.42860000 | 130       |
+| GBW                      | 103463.50000000 | 1000000.0 |
+| phase_margin (deg)       |     71.59859000 | 60        |
+| PSRP                     |    -56.68297000 | -90       |
+| PSRN                     |    -84.97991000 | -90       |
+| sr                       |  39965.14490000 | 400000.0  |
+| settlingTime             |      0.00001185 | 5e-06     |
+| TC score                 |     -0.29779258 |           |
+| Power score              |     -0.02257567 |           |
+| vos score                |     -0.56966111 |           |
+| cmrrdc score             |     -0.16767422 |           |
+| dcgain score             |     -0.02592999 |           |
+| GBW score                |     -0.81247499 |           |
+| phase_margin (deg) score |      0.00000000 |           |
+| PSRP score               |     -0.22713632 |           |
+| PSRN score               |     -0.02868952 |           |
+| sr score                 |     -0.81832586 |           |
+| settlingTime score       |     -0.40665754 |           |
+| Reward                   |     -3.37691781 |           |
+action: [9.059468928489103 1.9643173970962318 47.656922023501906
+ 7.9143157574011065 3.727689177274061 13.7794590891055 2.9810324269933774
+ 1.6713404774732254 27.170888448572878 5.797313518553304 3.795980457312289
+ 152.4183580999824 5.917826531893929 0.9072374704398178 30.594503154503528
+ 3.0194645282645585 3.371955823412101 25.007183654892742 7.251598701063806
+ 2.3346853750291734 38.72139514978797 1.4066894824421009e-05
+ 47.04861820288771 24.71066153076012]
+*** Simulations Done! ***
+| param                    |             num | target    |
+|--------------------------+-----------------+-----------|
+| TC                       |      0.00004896 | 1e-06     |
+| Power                    |    321.51924000 | 200.0     |
+| vos                      |      0.00117180 | 4e-05     |
+| cmrrdc                   |    -37.17790000 | -80       |
+| dcgain                   |    117.43220000 | 130       |
+| GBW                      | 106447.60000000 | 1000000.0 |
+| phase_margin (deg)       |     79.46993000 | 60        |
+| PSRP                     |    -36.83781000 | -90       |
+| PSRN                     |    -65.16685000 | -90       |
+| sr                       | 138561.30250000 | 400000.0  |
+| settlingTime             |      0.00000486 | 5e-06     |
+| TC score                 |     -0.95996403 |           |
+| Power score              |     -0.23301008 |           |
+| vos score                |     -0.93398251 |           |
+| cmrrdc score             |     -0.36544519 |           |
+| dcgain score             |     -0.05079290 |           |
+| GBW score                |     -0.80758673 |           |
+| phase_margin (deg) score |      0.00000000 |           |
+| PSRP score               |     -0.41913519 |           |
+| PSRN score               |     -0.16004159 |           |
+| sr score                 |     -0.48543907 |           |
+| settlingTime score       |      0.00000000 |           |
+| Reward                   |     -4.41539730 |           |
+action: [8.323937748031419 0.8783368430835483 30.862539378916395 7.687332820222088
+ 1.4589683864108016 46.806861396013105 7.874044686423658
+ 0.7930862541342656 29.12939882828138 7.740376031292834 0.9082822459530377
+ 326.4152487068359 3.3486503855296252 2.770240661927729 28.085582269549523
+ 8.899985122260949 2.9969551864329897 2.137887043222978 3.8414340396442626
+ 4.130440232174552 49.98945851914583 1.9432754288669156e-05
+ 29.48602965547553 4.779509403334753]
+*** Simulations Done! ***
+| param                    |              num | target    |
+|--------------------------+------------------+-----------|
+| TC                       |       0.00000558 | 1e-06     |
+| Power                    |     672.53544000 | 200.0     |
+| vos                      |       0.00004960 | 4e-05     |
+| cmrrdc                   |     -65.68455000 | -80       |
+| dcgain                   |     138.25040000 | 130       |
+| GBW                      | 1133798.00000000 | 1000000.0 |
+| phase_margin (deg)       |      68.24197000 | 60        |
+| PSRP                     |     -66.03512000 | -90       |
+| PSRN                     |     -93.77585000 | -90       |
+| sr                       |  372087.81800000 | 400000.0  |
+| settlingTime             |       0.00000308 | 5e-06     |
+| TC score                 |      -0.69587181 |           |
+| Power score              |      -0.54156590 |           |
+| vos score                |      -0.10714286 |           |
+| cmrrdc score             |      -0.09826334 |           |
+| dcgain score             |       0.00000000 |           |
+| GBW score                |       0.00000000 |           |
+| phase_margin (deg) score |       0.00000000 |           |
+| PSRP score               |      -0.15358645 |           |
+| PSRN score               |       0.00000000 |           |
+| sr score                 |      -0.03615156 |           |
+| settlingTime score       |       0.00000000 |           |
+| Reward                   |      -1.63258192 |           |
+action: [5.249213426483546 2.2286718995343917 16.064299327809707
+ 1.4751271173006337 3.4532689393683023 25.778951682261766
+ 0.7422012136388627 3.4078856082930553 23.35591807207455 4.755460388725034
+ 1.5927585866595373 325.9654601422377 5.16557080482977 2.8420780636477416
+ 36.65139030839834 4.469166589839005 1.9675661890994778 44.74620822468479
+ 0.6913204825173374 2.21854315228192 37.112558199295805
+ 8.655806915244754e-06 13.702144417598797 45.77666063025834]
+*** Simulations Done! ***
+| param                    |             num | target    |
+|--------------------------+-----------------+-----------|
+| TC                       |      0.00001429 | 1e-06     |
+| Power                    |   1374.52482000 | 200.0     |
+| vos                      |      0.00100470 | 4e-05     |
+| cmrrdc                   |    -40.98374000 | -80       |
+| dcgain                   |     90.58117000 | 130       |
+| GBW                      | 195264.20000000 | 1000000.0 |
+| phase_margin (deg)       |     84.20467000 | 60        |
+| PSRP                     |    -40.66394000 | -90       |
+| PSRN                     |    -70.30496000 | -90       |
+| sr                       | 257163.47050000 | 400000.0  |
+| settlingTime             |      0.00000452 | 5e-06     |
+| TC score                 |     -0.86917729 |           |
+| Power score              |     -0.74595510 |           |
+| vos score                |     -0.92342299 |           |
+| cmrrdc score             |     -0.32249177 |           |
+| dcgain score             |     -0.17870442 |           |
+| GBW score                |     -0.67327023 |           |
+| phase_margin (deg) score |      0.00000000 |           |
+| PSRP score               |     -0.37757977 |           |
+| PSRN score               |     -0.12285983 |           |
+| sr score                 |     -0.21735312 |           |
+| settlingTime score       |      0.00000000 |           |
+| Reward                   |     -4.43081451 |           |
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_ACDC.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_Tran.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_ACDC.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_Tran.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_ACDC.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_Tran.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_ACDC.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_Tran.log
+
+action: [8.728074185080388 1.7350112567611808 25.77384593342447 0.5110753558140715
+ 3.2463956092698556 11.002378197645795 4.369634192932673
+ 0.5127107074671873 32.55499308177754 9.876139424474243 3.980341987385798
+ 332.86344592645054 1.5687815836461443 3.548942137397785
+ 43.075395652887806 7.647169017973914 1.7831471785263746 38.32363968523248
+ 7.633385470292493 3.5293928959339915 10.272065874769154
+ 1.9505624022306705e-05 35.209363259222364 13.40469335090861]
+*** Simulations Done! ***
+| param                    |            num | target    |
+|--------------------------+----------------+-----------|
+| TC                       |     0.00020069 | 1e-06     |
+| Power                    |   356.14080000 | 200.0     |
+| vos                      |     0.01949030 | 4e-05     |
+| cmrrdc                   |   -17.11483000 | -80       |
+| dcgain                   |   103.03480000 | 130       |
+| GBW                      | 25679.31000000 | 1000000.0 |
+| phase_margin (deg)       |    88.69368000 | 60        |
+| PSRP                     |   -16.96359000 | -90       |
+| PSRN                     |   -52.20132000 | -90       |
+| sr                       | 85397.62655000 | 400000.0  |
+| settlingTime             |     0.06087420 | 5e-06     |
+| TC score                 |    -0.99008376 |           |
+| Power score              |    -0.28075768 |           |
+| vos score                |    -0.99590380 |           |
+| cmrrdc score             |    -0.64753416 |           |
+| dcgain score             |    -0.11571319 |           |
+| GBW score                |    -0.94992721 |           |
+| phase_margin (deg) score |     0.00000000 |           |
+| PSRP score               |    -0.68281562 |           |
+| PSRN score               |    -0.26581103 |           |
+| sr score                 |    -0.64813332 |           |
+| settlingTime score       |    -0.99983574 |           |
+| Reward                   |    -6.57651552 |           |
+action: [5.107835268129793 1.7399872264854912 47.56795101224941 3.271162845114239
+ 2.9740333451197127 21.35363582790391 8.876295204009534 2.9089577634927273
+ 31.234235585332364 8.848946216564185 1.8784844229890554
+ 166.58914744338787 8.509781389269236 2.671850576342751 35.450882217967575
+ 7.508144184657983 3.0849267021663764 38.93720187362311 5.08604737804781
+ 4.712165533415307 33.71710476420163 1.2278987904044416e-05
+ 33.14585457547411 30.688527252632365]
+*** Simulations Done! ***
+| param                    |             num | target    |
+|--------------------------+-----------------+-----------|
+| TC                       |      0.00001092 | 1e-06     |
+| Power                    |    414.61254000 | 200.0     |
+| vos                      |      0.00035580 | 4e-05     |
+| cmrrdc                   |    -54.91140000 | -80       |
+| dcgain                   |    120.89000000 | 130       |
+| GBW                      | 148689.50000000 | 1000000.0 |
+| phase_margin (deg)       |     72.03801000 | 60        |
+| PSRP                     |    -54.23468000 | -90       |
+| PSRN                     |    -76.77861000 | -90       |
+| sr                       | 150148.70950000 | 400000.0  |
+| settlingTime             |      0.00000786 | 5e-06     |
+| TC score                 |     -0.83222087 |           |
+| Power score              |     -0.34918347 |           |
+| vos score                |     -0.79787772 |           |
+| cmrrdc score             |     -0.18596353 |           |
+| dcgain score             |     -0.03631073 |           |
+| GBW score                |     -0.74111455 |           |
+| phase_margin (deg) score |      0.00000000 |           |
+| PSRP score               |     -0.24796616 |           |
+| PSRN score               |     -0.07927509 |           |
+| sr score                 |     -0.45415228 |           |
+| settlingTime score       |     -0.22230555 |           |
+| Reward                   |     -3.94636994 |           |
+action: [2.8824629368534773 2.7849785427334695 40.146400903719496
+ 9.629855424301109 1.4179199303291785 25.597072925291048 2.289694692584632
+ 2.112795227275049 38.76338207944115 3.212671141699916 3.1367618551880323
+ 153.62803486278727 3.470240601244309 3.2451841206358294 39.93575242389574
+ 7.612540103385685 0.8175597698558117 23.332359920424842 7.35813374539336
+ 1.8061687262605435 20.870662546021105 1.1418854372521778e-05
+ 13.405307399376124 17.50610303810571]
+*** Simulations Done! ***
+| param                    |             num | target    |
+|--------------------------+-----------------+-----------|
+| TC                       |      0.00000426 | 1e-06     |
+| Power                    |    275.28048000 | 200.0     |
+| vos                      |      0.00002740 | 4e-05     |
+| cmrrdc                   |    -69.83334000 | -80       |
+| dcgain                   |    138.67560000 | 130       |
+| GBW                      | 932675.60000000 | 1000000.0 |
+| phase_margin (deg)       |     22.92978000 | 60        |
+| PSRP                     |    -70.15209000 | -90       |
+| PSRN                     |    -98.77136000 | -90       |
+| sr                       | 258969.03150000 | 400000.0  |
+| settlingTime             |      0.13721530 | 5e-06     |
+| TC score                 |     -0.61995366 |           |
+| Power score              |     -0.15839169 |           |
+| vos score                |      0.00000000 |           |
+| cmrrdc score             |     -0.06785312 |           |
+| dcgain score             |      0.00000000 |           |
+| GBW score                |     -0.03483482 |           |
+| phase_margin (deg) score |     -0.44700734 |           |
+| PSRP score               |     -0.12393163 |           |
+| PSRN score               |      0.00000000 |           |
+| sr score                 |     -0.21401760 |           |
+| settlingTime score       |     -0.99992712 |           |
+| Reward                   |     -2.66591698 |           |
+action: [1.225550122884278 1.1776028030434746 13.808735633288114
+ 1.4415492399822205 1.6974700088756878 10.34740027344002 2.523019958400171
+ 3.8706200980388976 20.70551759742792 6.2151490184684 3.4817142443527525
+ 168.04266799767294 2.9722486854582657 2.2069058446938 19.43156734177758
+ 9.7884462481049 3.1145113532685493 43.7180720013901 5.627592356730004
+ 3.0514758499993286 18.965875158751 1.075976051395508e-05
+ 21.21708944447164 22.549875462155267]
+*** Simulations Done! ***
+| param                    |             num | target    |
+|--------------------------+-----------------+-----------|
+| TC                       |      0.00000707 | 1e-06     |
+| Power                    |    513.95562000 | 200.0     |
+| vos                      |      0.00065710 | 4e-05     |
+| cmrrdc                   |    -55.49313000 | -80       |
+| dcgain                   |    113.71160000 | 130       |
+| GBW                      | 116466.60000000 | 1000000.0 |
+| phase_margin (deg)       |     72.74592000 | 60        |
+| PSRP                     |    -53.69529000 | -90       |
+| PSRN                     |    -68.30319000 | -90       |
+| sr                       | 172536.68000000 | 400000.0  |
+| settlingTime             |      0.00000528 | 5e-06     |
+| TC score                 |     -0.75228126 |           |
+| Power score              |     -0.43974109 |           |
+| vos score                |     -0.88523885 |           |
+| cmrrdc score             |     -0.18087168 |           |
+| dcgain score             |     -0.06683473 |           |
+| GBW score                |     -0.79136572 |           |
+| phase_margin (deg) score |      0.00000000 |           |
+| PSRP score               |     -0.25265066 |           |
+| PSRN score               |     -0.13705858 |           |
+| sr score                 |     -0.39729039 |           |
+| settlingTime score       |     -0.02681153 |           |
+| Reward                   |     -3.93014448 |           |
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_ACDC.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_Tran.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_ACDC.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_Tran.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_ACDC.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_Tran.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_ACDC.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_Tran.log
+
+action: [1.8132061206477132 2.188597855056873 31.7217826203635 3.941315062208038
+ 3.0846851407842193 4.714113969632578 5.189700611931341 3.28278671709882
+ 38.193069236001314 5.943326273714146 3.5709569522538325 428.53440483911
+ 6.551083931529614 2.2818345527951833 3.162049502674126 2.6960050306054852
+ 1.459250569885477 17.546303777585656 3.2663250132517465
+ 1.2054174570572782 12.541647614214341 1.4340555610733047e-05
+ 36.403484682170394 32.97944596773139]
+*** Simulations Done! ***
+| param                    |             num | target    |
+|--------------------------+-----------------+-----------|
+| TC                       |      0.00043028 | 1e-06     |
+| Power                    |    521.74350000 | 200.0     |
+| vos                      |      0.00601620 | 4e-05     |
+| cmrrdc                   |    -22.06480000 | -80       |
+| dcgain                   |    103.18500000 | 130       |
+| GBW                      |  28996.67000000 | 1000000.0 |
+| phase_margin (deg)       |     85.44811000 | 60        |
+| PSRP                     |    -21.86843000 | -90       |
+| PSRN                     |    -54.85242000 | -90       |
+| sr                       | 112029.64950000 | 400000.0  |
+| settlingTime             |      0.00000536 | 5e-06     |
+| TC score                 |     -0.99536268 |           |
+| Power score              |     -0.44578649 |           |
+| vos score                |     -0.98679040 |           |
+| cmrrdc score             |     -0.56763154 |           |
+| dcgain score             |     -0.11499453 |           |
+| GBW score                |     -0.94364089 |           |
+| phase_margin (deg) score |      0.00000000 |           |
+| PSRP score               |     -0.60903304 |           |
+| PSRN score               |     -0.24264406 |           |
+| sr score                 |     -0.56240952 |           |
+| settlingTime score       |     -0.03437720 |           |
+| Reward                   |     -5.50267036 |           |
+action: [5.938085765105376 3.9094582502343416 6.103583892707135 5.961800844844906
+ 3.8911234905801333 13.688965573867794 1.2405306068980035
+ 2.3808424205165784 34.38344924729674 5.8354920061983835 3.940654281145471
+ 300.4677039149523 6.786187516483462 3.6149177834723525 7.985928729060831
+ 4.28196385423463 2.0041881114400812 40.763949081720575 4.755059252507144
+ 1.36255814471112 5.658651025196885 1.5210758952693914e-05
+ 38.304029679198074 19.0532762422239]
+*** Simulations Done! ***
+| param                    |             num | target    |
+|--------------------------+-----------------+-----------|
+| TC                       |      0.00043398 | 1e-06     |
+| Power                    |    550.54638000 | 200.0     |
+| vos                      |      0.00441180 | 4e-05     |
+| cmrrdc                   |    -24.35407000 | -80       |
+| dcgain                   |    110.31490000 | 130       |
+| GBW                      |  79501.85000000 | 1000000.0 |
+| phase_margin (deg)       |     81.18114000 | 60        |
+| PSRP                     |    -24.08274000 | -90       |
+| PSRN                     |    -54.31156000 | -90       |
+| sr                       | 160721.45950000 | 400000.0  |
+| settlingTime             |      0.00000470 | 5e-06     |
+| TC score                 |     -0.99540207 |           |
+| Power score              |     -0.46705492 |           |
+| vos score                |     -0.98202974 |           |
+| cmrrdc score             |     -0.53324159 |           |
+| dcgain score             |     -0.08191377 |           |
+| GBW score                |     -0.85270641 |           |
+| phase_margin (deg) score |      0.00000000 |           |
+| PSRP score               |     -0.57780222 |           |
+| PSRN score               |     -0.24730132 |           |
+| sr score                 |     -0.42673334 |           |
+| settlingTime score       |      0.00000000 |           |
+| Reward                   |     -5.16418539 |           |
+Random simulations completed!
+cpu
+Starting training...
+*** Simulations Done! ***
+*** Simulations Done! ***
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_ACDC.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_Tran.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_ACDC.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_Tran.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_ACDC.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_Tran.log
+
+
+Step: 1/15000 | Episode: 0
+Current Episode Reward: 0.00
+Current Episode Length: 0
+
+==================================================
+Step: 1 | Episode: 0
+==================================================
+
+*** Actions with Noise sigma = 1.0 ***
+ uniform distribution noise 
+Selected action: [ 0.02903896 -0.5094602  -0.00526113  0.30467892  0.53702223 -0.06145634
+  0.11622953 -0.3728242   0.4984516   0.77629125 -0.06719944 -0.3949242
+  0.78097165  0.4637576   0.73261505 -0.58824754 -0.294658    0.07924876
+ -0.06430727 -0.2350672   0.8643608  -0.11607669  0.5849111  -0.07234506]
+==================================================
+
+action: [5.387935042846948 1.358444631099701 25.371102276723832 6.697224855422974
+ 3.189788907766342 23.994319638237357 5.802090287208557 1.5975576639175415
+ 37.71206396818161 8.937383443117142 2.13240098208189 221.01516127586365
+ 8.95961531996727 3.0615758076310158 43.44906881451607 2.4558241963386536
+ 1.7343484908342361 27.441594526171684 4.944540455937386 2.22109879180789
+ 46.67683982849121 1.0513348110020162e-05 39.83032214641571
+ 23.727546136826277]
+*** Simulations Done! ***
+| param                    |             num | target    |
+|--------------------------+-----------------+-----------|
+| TC                       |      0.00002536 | 1e-06     |
+| Power                    |    294.11496000 | 200.0     |
+| vos                      |      0.00019590 | 4e-05     |
+| cmrrdc                   |    -44.47962000 | -80       |
+| dcgain                   |    123.55130000 | 130       |
+| GBW                      | 190097.60000000 | 1000000.0 |
+| phase_margin (deg)       |     66.38909000 | 60        |
+| PSRP                     |    -44.48617000 | -90       |
+| PSRN                     |   -107.86740000 | -90       |
+| sr                       | 119733.28200000 | 400000.0  |
+| settlingTime             |      0.00000998 | 5e-06     |
+| TC score                 |     -0.92413295 |           |
+| Power score              |     -0.19047179 |           |
+| vos score                |     -0.66087325 |           |
+| cmrrdc score             |     -0.28535097 |           |
+| dcgain score             |     -0.02543351 |           |
+| GBW score                |     -0.68053444 |           |
+| phase_margin (deg) score |      0.00000000 |           |
+| PSRP score               |     -0.33842759 |           |
+| PSRN score               |      0.00000000 |           |
+| sr score                 |     -0.53925105 |           |
+| settlingTime score       |     -0.33222862 |           |
+| Reward                   |     -3.97670416 |           |
+
+Step: 2/15000 | Episode: 0
+Current Episode Reward: -3.98
+Current Episode Length: 1
+
+==================================================
+Step: 2 | Episode: 0
+==================================================
+
+*** Actions with Noise sigma = 0.9995 ***
+ uniform distribution noise 
+Selected action: [-0.09731755 -0.36095345 -0.10244958 -0.54933167 -0.40497592  0.743516
+  0.19799373 -0.1549409  -0.6202722  -0.8497101  -0.36731637  0.19149697
+ -0.56160426  0.18465322  0.6908428   0.72127014 -0.7546777  -0.88710546
+ -0.41947472 -0.7963689   0.03510191  0.9546247   0.09084293  0.06236583]
+==================================================
+
+action: [4.787741618230939 1.6183314621448517 22.989985264837742 2.640674591064453
+ 1.5412921383976936 43.71614268422127 6.1904701963067055
+ 1.9788534194231033 10.30333063006401 1.2138769924640656
+ 1.6071963608264923 338.29939365386963 2.5823797583580017
+ 2.5731431394815445 42.42564877867699 8.676033183932304 0.9293140023946762
+ 3.765916109085083 3.2574950754642487 0.9581699818372726
+ 26.359996866434813 1.9614310055971148e-05 27.725651662796736
+ 27.027962742373347]
+*** Simulations Done! ***
+| param                    |             num | target    |
+|--------------------------+-----------------+-----------|
+| TC                       |      0.00000998 | 1e-06     |
+| Power                    |    917.95896000 | 200.0     |
+| vos                      |      0.00040220 | 4e-05     |
+| cmrrdc                   |    -49.03730000 | -80       |
+| dcgain                   |    124.47030000 | 130       |
+| GBW                      | 470590.50000000 | 1000000.0 |
+| phase_margin (deg)       |     63.08771000 | 60        |
+| PSRP                     |    -48.72084000 | -90       |
+| PSRN                     |    -77.68656000 | -90       |
+| sr                       | 259223.43800000 | 400000.0  |
+| settlingTime             |      0.00000561 | 5e-06     |
+| TC score                 |     -0.81786845 |           |
+| Power score              |     -0.64220511 |           |
+| vos score                |     -0.81908639 |           |
+| cmrrdc score             |     -0.23995155 |           |
+| dcgain score             |     -0.02173024 |           |
+| GBW score                |     -0.35999791 |           |
+| phase_margin (deg) score |      0.00000000 |           |
+| PSRP score               |     -0.29757000 |           |
+| PSRN score               |     -0.07343129 |           |
+| sr score                 |     -0.21354909 |           |
+| settlingTime score       |     -0.05755861 |           |
+| Reward                   |     -3.54294862 |           |
+
+Step: 3/15000 | Episode: 0
+Current Episode Reward: -7.52
+Current Episode Length: 2
+
+==================================================
+Step: 3 | Episode: 0
+==================================================
+
+*** Actions with Noise sigma = 0.9990002500000001 ***
+ uniform distribution noise 
+Selected action: [ 0.2708649  -0.30955783  0.21373023  0.43077108  0.30150098 -0.19311251
+  0.24995483  0.5898029   0.10909441 -0.12944028 -0.8924052  -0.56477785
+ -0.42694062 -0.16800527  0.9299556   0.99524325 -0.45842284  0.31606477
+ -0.32690355 -0.65705055 -0.05358128  0.28484455 -0.8687905   0.58675736]
+==================================================
+
+action: [6.5366082936525345 1.7082738056778908 30.73639065772295
+ 7.2961626425385475 2.77762670814991 20.768743567168713 6.437285464257002
+ 3.2821551114320755 28.172813072800636 4.635158680379391
+ 0.6882908791303635 187.04442977905273 3.222032055258751
+ 1.9559907726943493 48.28391224145889 9.977405443787575 1.4477600306272507
+ 33.243586987257004 3.6972081288695335 1.271636262536049 24.18725867010653
+ 1.3921178653836253e-05 4.214632570743561 39.875555366277695]
+*** Simulations Done! ***
+| param                    |              num | target    |
+|--------------------------+------------------+-----------|
+| TC                       |       0.00001951 | 1e-06     |
+| Power                    |    1352.61108000 | 200.0     |
+| vos                      |       0.00046570 | 4e-05     |
+| cmrrdc                   |     -46.71797000 | -80       |
+| dcgain                   |     114.40550000 | 130       |
+| GBW                      | 1140016.00000000 | 1000000.0 |
+| phase_margin (deg)       |      70.70334000 | 60        |
+| PSRP                     |     -46.36734000 | -90       |
+| PSRN                     |     -74.50867000 | -90       |
+| sr                       |  925523.80450000 | 400000.0  |
+| settlingTime             |       0.00001087 | 5e-06     |
+| TC score                 |      -0.90246828 |           |
+| Power score              |      -0.74236948 |           |
+| vos score                |      -0.84180344 |           |
+| cmrrdc score             |      -0.26264649 |           |
+| dcgain score             |      -0.06380585 |           |
+| GBW score                |       0.00000000 |           |
+| phase_margin (deg) score |       0.00000000 |           |
+| PSRP score               |      -0.31996415 |           |
+| PSRN score               |      -0.09416726 |           |
+| sr score                 |       0.00000000 |           |
+| settlingTime score       |      -0.36974560 |           |
+| Reward                   |      -3.59697055 |           |
+
+Step: 4/15000 | Episode: 0
+Current Episode Reward: -11.12
+Current Episode Length: 3
+
+==================================================
+Step: 4 | Episode: 0
+==================================================
+
+*** Actions with Noise sigma = 0.9985007498750001 ***
+ uniform distribution noise 
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_ACDC.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_Tran.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_ACDC.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_Tran.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_ACDC.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_Tran.log
+
+Selected action: [ 0.84508204 -0.8022483   0.8649849   0.16400148  0.39015967 -0.21673575
+  0.9752432   0.20773347  0.13277026  0.34097445 -0.19309996 -0.3903544
+ -0.0101329   0.5002301   0.7205342   0.40863085 -0.6455095  -0.19214733
+  0.1005879  -0.7266276   0.79419285 -0.6648883  -0.2734788   0.45360866]
+==================================================
+
+action: [9.264139711856842 0.8460654765367508 46.69213077425957 6.029007028788328
+ 2.9327794164419174 20.18997411429882 9.882405251264572 2.613533567637205
+ 28.75287125259638 6.8696286380290985 1.9120750688016415
+ 221.92912101745605 5.2018687184900045 3.1254026293754578
+ 43.15308803319931 7.190996527671814 1.120358407497406 20.792390428483486
+ 5.727792510762811 1.1150879263877869 44.95772483944893
+ 5.8484492599964155e-06 18.79976925253868 36.61341221630573]
+*** Simulations Done! ***
+| param                    |             num | target    |
+|--------------------------+-----------------+-----------|
+| TC                       |      0.00004223 | 1e-06     |
+| Power                    |    197.77392000 | 200.0     |
+| vos                      |      0.00071580 | 4e-05     |
+| cmrrdc                   |    -38.65633000 | -80       |
+| dcgain                   |    125.76070000 | 130       |
+| GBW                      | 226182.70000000 | 1000000.0 |
+| phase_margin (deg)       |     48.11255000 | 60        |
+| PSRP                     |    -38.59563000 | -90       |
+| PSRN                     |    -81.78612000 | -90       |
+| sr                       | 103137.05115000 | 400000.0  |
+| settlingTime             |      0.00001269 | 5e-06     |
+| TC score                 |     -0.95373860 |           |
+| Power score              |      0.00000000 |           |
+| vos score                |     -0.89415189 |           |
+| cmrrdc score             |     -0.34843206 |           |
+| dcgain score             |     -0.01657526 |           |
+| GBW score                |     -0.63107831 |           |
+| phase_margin (deg) score |     -0.10995439 |           |
+| PSRP score               |     -0.39973652 |           |
+| PSRN score               |     -0.04781457 |           |
+| sr score                 |     -0.59002403 |           |
+| settlingTime score       |     -0.43475486 |           |
+| Reward                   |     -4.42626049 |           |
+
+Step: 5/15000 | Episode: 0
+Current Episode Reward: -15.54
+Current Episode Length: 4
+
+==================================================
+Step: 5 | Episode: 0
+==================================================
+
+*** Actions with Noise sigma = 0.9980014995000627 ***
+ uniform distribution noise 
+Selected action: [ 0.07459199 -0.8023861   0.7872469  -0.19513747 -0.3436296   0.23167744
+  0.1430496  -0.09041434  0.08900757 -0.7369576   0.02948932  0.27736455
+ -0.6786051   0.11406245  0.95537317 -0.29369965 -0.42573893 -0.8274003
+ -0.3900041  -0.13275981 -0.06238186  0.5575027   0.19284686  0.33609968]
+==================================================
+
+action: [5.604311972856522 0.8458243161439896 44.78754863142967 4.323097012937069
+ 1.648648202419281 31.176097348332405 5.929485589265823 2.091774908825755
+ 27.680685497820377 1.7494513541460037 2.3016063161194324
+ 355.4729104042053 2.026625871658325 2.449609288945794 48.906642615795135
+ 3.8549266532063484 1.5049568712711334 5.22869199514389 3.39748053252697
+ 2.4512904286384583 23.971644341945648 1.6238772839307788e-05
+ 30.22474817931652 33.73444226384163]
+*** Simulations Done! ***
+| param                    |             num | target    |
+|--------------------------+-----------------+-----------|
+| TC                       |      0.00003228 | 1e-06     |
+| Power                    |    463.11480000 | 200.0     |
+| vos                      |      0.00075970 | 4e-05     |
+| cmrrdc                   |    -39.60680000 | -80       |
+| dcgain                   |    129.13840000 | 130       |
+| GBW                      | 428836.40000000 | 1000000.0 |
+| phase_margin (deg)       |     61.74605000 | 60        |
+| PSRP                     |    -39.49815000 | -90       |
+| PSRN                     |    -77.62833000 | -90       |
+| sr                       | 203788.68200000 | 400000.0  |
+| settlingTime             |      0.00000633 | 5e-06     |
+| TC score                 |     -0.93989533 |           |
+| Power score              |     -0.39678620 |           |
+| vos score                |     -0.89996249 |           |
+| cmrrdc score             |     -0.33771658 |           |
+| dcgain score             |     -0.00332486 |           |
+| GBW score                |     -0.39974038 |           |
+| phase_margin (deg) score |      0.00000000 |           |
+| PSRP score               |     -0.38998125 |           |
+| PSRN score               |     -0.07380417 |           |
+| sr score                 |     -0.32496687 |           |
+| settlingTime score       |     -0.11750627 |           |
+| Reward                   |     -3.88368440 |           |
+
+Step: 6/15000 | Episode: 0
+Current Episode Reward: -19.43
+Current Episode Length: 5
+
+==================================================
+Step: 6 | Episode: 0
+==================================================
+
+*** Actions with Noise sigma = 0.9975024987503127 ***
+ uniform distribution noise 
+Selected action: [ 0.9112677   0.12057845  0.6852809   0.7397926   0.14299837  0.08070502
+  0.48446414  0.45217752  0.7647779   0.42041734  0.22863203 -0.64529276
+  0.6976809   0.03309036  0.71583796 -0.68985045 -0.87486    -0.11233763
+  0.40732774 -0.60058266 -0.3201888  -0.73213315  0.2691494  -0.2305498 ]
+==================================================
+
+action: [9.578521564602852 2.461012279614806 42.2893825173378 8.764014780521393
+ 2.5002471432089806 27.47727309539914 7.551204659044743 3.041310667991638
+ 44.23705852031708 7.246982358396053 2.650106057524681 170.94144821166992
+ 8.563984230160713 2.3079081242904067 43.03802990913391 1.9732103645801544
+ 0.7189950197935104 22.74772796779871 7.184806771576405 1.398689016699791
+ 17.655374631285667 5.276868224143984e-06 32.09416012465954
+ 19.851529963314533]
+*** Simulations Done! ***
+| param                    |             num | target    |
+|--------------------------+-----------------+-----------|
+| TC                       |      0.00000044 | 1e-06     |
+| Power                    |    140.93125200 | 200.0     |
+| vos                      |      0.00006970 | 4e-05     |
+| cmrrdc                   |    -65.98131000 | -80       |
+| dcgain                   |    130.26510000 | 130       |
+| GBW                      | 259057.60000000 | 1000000.0 |
+| phase_margin (deg)       |     32.74762000 | 60        |
+| PSRP                     |    -65.64562000 | -90       |
+| PSRN                     |    -94.09820000 | -90       |
+| sr                       |  75623.37825000 | 400000.0  |
+| settlingTime             |      0.00001992 | 5e-06     |
+| TC score                 |      0.00000000 |           |
+| Power score              |      0.00000000 |           |
+| vos score                |     -0.27073838 |           |
+| cmrrdc score             |     -0.09603072 |           |
+| dcgain score             |      0.00000000 |           |
+| GBW score                |     -0.58848968 |           |
+| phase_margin (deg) score |     -0.29383374 |           |
+| PSRP score               |     -0.15647328 |           |
+| PSRN score               |      0.00000000 |           |
+| sr score                 |     -0.68200311 |           |
+| settlingTime score       |     -0.59876853 |           |
+| Reward                   |     -2.68633742 |           |
+
+Step: 7/15000 | Episode: 0
+Current Episode Reward: -22.11
+Current Episode Length: 6
+
+==================================================
+Step: 7 | Episode: 0
+==================================================
+
+*** Actions with Noise sigma = 0.9970037475009376 ***
+ uniform distribution noise 
+Selected action: [-0.06153262 -0.30202127  0.06365374  0.5955733   0.51500577  0.88522816
+  0.8333884  -0.20345886  0.9847117  -0.41016883  0.17860708 -0.8104895
+ -0.6025877   0.21584556  0.9787502   0.23909062 -0.05281887  0.09002255
+ -0.2545761   0.22471063  0.6594949   0.36465374  0.6806897   0.34122857]
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_ACDC.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_Tran.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_ACDC.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_Tran.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_ACDC.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_Tran.log
+
+==================================================
+
+action: [4.957720071077347 1.7214627861976624 27.059516564011574 8.078973203897476
+ 3.1512600928545 47.1880898475647 9.208594843745232 1.8939469940960407
+ 49.62543681263924 3.301698073744774 2.562562383711338 137.90210485458374
+ 2.3877084255218506 2.627729721367359 49.47938060760498 6.385680451989174
+ 2.157566980458796 27.705552451312542 4.040763586759567 3.2555989138782024
+ 41.65762448310852 1.4599556758999827e-05 42.17689746618271
+ 33.86010007560253]
+*** Simulations Done! ***
+| param                    |             num | target    |
+|--------------------------+-----------------+-----------|
+| TC                       |      0.00002887 | 1e-06     |
+| Power                    |    291.63564000 | 200.0     |
+| vos                      |      0.00025800 | 4e-05     |
+| cmrrdc                   |    -43.52434000 | -80       |
+| dcgain                   |    129.60720000 | 130       |
+| GBW                      | 583227.60000000 | 1000000.0 |
+| phase_margin (deg)       |     29.97970000 | 60        |
+| PSRP                     |    -43.48254000 | -90       |
+| PSRN                     |    -89.80098000 | -90       |
+| sr                       |  60276.86460050 | 400000.0  |
+| settlingTime             |      0.50081542 | 5e-06     |
+| TC score                 |     -0.93305420 |           |
+| Power score              |     -0.18638933 |           |
+| vos score                |     -0.73154362 |           |
+| cmrrdc score             |     -0.29529128 |           |
+| dcgain score             |     -0.00151306 |           |
+| GBW score                |     -0.26324225 |           |
+| phase_margin (deg) score |     -0.33363414 |           |
+| PSRP score               |     -0.34849097 |           |
+| PSRN score               |     -0.00110689 |           |
+| sr score                 |     -0.73808432 |           |
+| settlingTime score       |     -0.99998003 |           |
+| Reward                   |     -4.83233009 |           |
+
+Step: 8/15000 | Episode: 0
+Current Episode Reward: -26.95
+Current Episode Length: 7
+
+==================================================
+Step: 8 | Episode: 0
+==================================================
+
+*** Actions with Noise sigma = 0.9965052456271871 ***
+ uniform distribution noise 
+Selected action: [ 0.6690412   0.11789809  0.7947118   0.932654   -0.88947326 -0.02905504
+  0.4477409   0.73436207 -0.5263336  -0.04417924  0.41063303 -0.21085522
+  0.4689687   0.25733346  0.68712527 -0.19746315 -0.92746234 -0.3317854
+ -0.5263356  -0.46893564 -0.48552945  0.9501026   0.22398289  0.33207393]
+==================================================
+
+action: [8.427945777773857 2.4563216604292393 44.97043979167938 9.680106610059738
+ 0.693421795964241 24.788151420652866 7.376769334077835 3.5351336151361465
+ 12.604827523231506 5.040148600004613 2.968607798218727 257.8289568424225
+ 7.477601274847984 2.7003335505723953 42.33456900715828 4.312050014734268
+ 0.626940906047821 17.371257439255714 2.749905914068222 1.6948948130011559
+ 13.604528412222862 1.9575872331857683e-05 30.987580694258213
+ 33.63581120967865]
+*** Simulations Done! ***
+| param                    |             num | target    |
+|--------------------------+-----------------+-----------|
+| TC                       |      0.00000649 | 1e-06     |
+| Power                    |   1016.42490000 | 200.0     |
+| vos                      |      0.00013230 | 4e-05     |
+| cmrrdc                   |    -60.98929000 | -80       |
+| dcgain                   |    137.21420000 | 130       |
+| GBW                      | 850564.10000000 | 1000000.0 |
+| phase_margin (deg)       |     45.81967000 | 60        |
+| PSRP                     |    -60.63629000 | -90       |
+| PSRN                     |    -88.66050000 | -90       |
+| sr                       | 249999.73900000 | 400000.0  |
+| settlingTime             |      0.00000345 | 5e-06     |
+| TC score                 |     -0.73301115 |           |
+| Power score              |     -0.67116753 |           |
+| vos score                |     -0.53569356 |           |
+| cmrrdc score             |     -0.13483797 |           |
+| dcgain score             |      0.00000000 |           |
+| GBW score                |     -0.08075154 |           |
+| phase_margin (deg) score |     -0.13400467 |           |
+| PSRP score               |     -0.19493118 |           |
+| PSRN score               |     -0.00749746 |           |
+| sr score                 |     -0.23076972 |           |
+| settlingTime score       |      0.00000000 |           |
+| Reward                   |     -2.72266479 |           |
+
+Step: 9/15000 | Episode: 0
+Current Episode Reward: -29.67
+Current Episode Length: 8
+
+==================================================
+Step: 9 | Episode: 0
+==================================================
+
+*** Actions with Noise sigma = 0.9960069930043736 ***
+ uniform distribution noise 
+Selected action: [ 0.69187796 -0.5585531   0.15759549  0.73548    -0.8269075  -0.85538495
+  0.9102036   0.02414011  0.9278358   0.57694083 -0.45569098 -0.17065664
+ -0.6014508   0.9607261   0.7952962  -0.49410984  0.06027314  0.09955864
+  0.30449608  0.11867325 -0.16246791 -0.62582576  0.2758294   0.73820996]
+==================================================
+
+action: [8.536420315504074 1.2725320756435394 29.361089393496513 8.743530049920082
+ 0.8029118478298187 4.543068826198578 9.57346698641777 2.2922451961785555
+ 48.23197764158249 7.990468963980675 1.452540785074234 265.8686727285385
+ 2.393108695745468 3.931270644068718 44.98475670814514 2.902978263795376
+ 2.355477996170521 27.93918677791953 6.696356378495693 3.0170148126780987
+ 21.519536159932613 6.1804810166358965e-06 32.257820412516594
+ 43.58614408969879]
+*** Simulations Done! ***
+| param                    |             num | target    |
+|--------------------------+-----------------+-----------|
+| TC                       |      0.00000199 | 1e-06     |
+| Power                    |    212.95566000 | 200.0     |
+| vos                      |      0.00007820 | 4e-05     |
+| cmrrdc                   |    -74.90592000 | -80       |
+| dcgain                   |    129.15400000 | 130       |
+| GBW                      | 189683.00000000 | 1000000.0 |
+| phase_margin (deg)       |     56.36676000 | 60        |
+| PSRP                     |    -74.09528000 | -90       |
+| PSRN                     |    -95.14618000 | -90       |
+| sr                       |  63235.45340000 | 400000.0  |
+| settlingTime             |      0.00000842 | 5e-06     |
+| TC score                 |     -0.33105515 |           |
+| Power score              |     -0.03137301 |           |
+| vos score                |     -0.32318105 |           |
+| cmrrdc score             |     -0.03288499 |           |
+| dcgain score             |     -0.00326447 |           |
+| GBW score                |     -0.68112010 |           |
+| phase_margin (deg) score |     -0.03122232 |           |
+| PSRP score               |     -0.09692369 |           |
+| PSRN score               |      0.00000000 |           |
+| sr score                 |     -0.72698353 |           |
+| settlingTime score       |     -0.25468393 |           |
+| Reward                   |     -2.51269224 |           |
+
+Step: 10/15000 | Episode: 0
+Current Episode Reward: -32.18
+Current Episode Length: 9
+
+==================================================
+Step: 10 | Episode: 0
+==================================================
+
+*** Actions with Noise sigma = 0.9955089895078715 ***
+ uniform distribution noise 
+Selected action: [ 0.7472304  -0.18556803 -0.3013409   0.1652833  -0.86448133 -0.85471696
+ -0.10464635  0.04889547  0.4444039   0.28715438 -0.9978819  -0.04108494
+  0.20709428  0.8458868   0.9635455  -0.17751484 -0.54829913 -0.84963256
+ -0.48658824 -0.36737102  0.4645447  -0.31856084  0.2506747   0.983653  ]
+==================================================
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_ACDC.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_Tran.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_ACDC.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_Tran.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_ACDC.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_Tran.log
+
+action: [8.799344450235367 1.9252559393644333 18.117147758603096 6.03509571030736
+ 0.7371576726436615 4.559434562921524 4.75292981415987 2.3355670673772693
+ 36.38789522647858 6.613983288407326 0.503706693649292 291.7830117046833
+ 6.233697839081287 3.730301946401596 49.10686478018761 4.4068045280873775
+ 1.2904765158891678 4.684002250432968 2.938705861568451 1.9234151989221573
+ 36.881345480680466 8.792232871055606e-06 31.64153002202511
+ 49.599498718976974]
+*** Simulations Done! ***
+| param                    |             num | target    |
+|--------------------------+-----------------+-----------|
+| TC                       |      0.00000939 | 1e-06     |
+| Power                    |   2034.91080000 | 200.0     |
+| vos                      |      0.00000850 | 4e-05     |
+| cmrrdc                   |    -54.31525000 | -80       |
+| dcgain                   |    119.58090000 | 130       |
+| GBW                      | 217199.90000000 | 1000000.0 |
+| phase_margin (deg)       |     75.37095000 | 60        |
+| PSRP                     |    -54.36795000 | -90       |
+| PSRN                     |    -99.45313000 | -90       |
+| sr                       | 124735.22650000 | 400000.0  |
+| settlingTime             |      0.00000674 | 5e-06     |
+| TC score                 |     -0.80752550 |           |
+| Power score              |     -0.82102194 |           |
+| vos score                |      0.00000000 |           |
+| cmrrdc score             |     -0.19122736 |           |
+| dcgain score             |     -0.04174638 |           |
+| GBW score                |     -0.64311548 |           |
+| phase_margin (deg) score |      0.00000000 |           |
+| PSRP score               |     -0.24681413 |           |
+| PSRN score               |      0.00000000 |           |
+| sr score                 |     -0.52457842 |           |
+| settlingTime score       |     -0.14794115 |           |
+| Reward                   |     -3.42397035 |           |
+
+Step: 11/15000 | Episode: 0
+Current Episode Reward: -35.60
+Current Episode Length: 10
+
+==================================================
+Step: 11 | Episode: 0
+==================================================
+
+*** Actions with Noise sigma = 0.9950112350131176 ***
+ uniform distribution noise 
+Selected action: [ 0.05057955  0.04474949  0.6213537   0.5857764  -0.93721133 -0.06198055
+  0.11235974  0.27143267  0.2347887  -0.56696385 -0.4271345  -0.14443028
+  0.49697262  0.7745592   0.85548055 -0.11320833 -0.6236064  -0.565077
+ -0.6240479  -0.58931     0.9541089  -0.28156888 -0.31273377  0.5577032 ]
+==================================================
+
+action: [5.490252870135009 2.3283116025850177 40.723165303468704 8.032437846064568
+ 0.6098801642656326 23.98147663474083 5.783708764240146 2.7250071689486504
+ 31.252323172986507 2.5569217056035995 1.5025146007537842
+ 271.1139440536499 7.610619947314262 3.605478599667549 46.459273517131805
+ 4.712260426953435 1.1586888283491135 11.655613332986832 2.2857725918293
+ 1.4240525215864182 48.87566789984703 9.106664478778841e-06
+ 17.838022649288177 39.16372832655907]
+*** Simulations Done! ***
+| param                    |             num | target    |
+|--------------------------+-----------------+-----------|
+| TC                       |      0.00000025 | 1e-06     |
+| Power                    |    363.64086000 | 200.0     |
+| vos                      |      0.00004730 | 4e-05     |
+| cmrrdc                   |    -87.02557000 | -80       |
+| dcgain                   |    141.08720000 | 130       |
+| GBW                      | 551106.00000000 | 1000000.0 |
+| phase_margin (deg)       |     16.88998000 | 60        |
+| PSRP                     |    -85.61242000 | -90       |
+| PSRN                     |   -102.12030000 | -90       |
+| sr                       | 154178.96450000 | 400000.0  |
+| settlingTime             |      0.00003073 | 5e-06     |
+| TC score                 |      0.00000000 |           |
+| Power score              |     -0.29032824 |           |
+| vos score                |     -0.08361970 |           |
+| cmrrdc score             |      0.00000000 |           |
+| dcgain score             |      0.00000000 |           |
+| GBW score                |     -0.28940253 |           |
+| phase_margin (deg) score |     -0.56067149 |           |
+| PSRP score               |     -0.02498445 |           |
+| PSRN score               |      0.00000000 |           |
+| sr score                 |     -0.44357699 |           |
+| settlingTime score       |     -0.72009460 |           |
+| Reward                   |     -2.41267801 |           |
+
+Step: 12/15000 | Episode: 0
+Current Episode Reward: -38.02
+Current Episode Length: 11
+
+==================================================
+Step: 12 | Episode: 0
+==================================================
+
+*** Actions with Noise sigma = 0.9945137293956111 ***
+ uniform distribution noise 
+Selected action: [ 0.24823897 -0.05448257  0.9359952  -0.07715766  0.3758525   0.80631477
+  0.5614887  -0.14164181  0.8100563   0.7873981  -0.44380903 -0.12286232
+ -0.52965254  0.16884637  0.56962585 -0.85823435  0.00646432 -0.35135606
+  0.02847289  0.19180651  0.15729707 -0.0181412  -0.12707876  0.8247878 ]
+==================================================
+
+action: [6.429135087877512 2.154655505903065 48.43188291788101 4.8835011087358
+ 2.907741867005825 45.25471177697182 7.917071267962456 2.002126831561327
+ 45.346380054950714 8.990140974521637 1.4733341932296753
+ 275.42753517627716 2.73415045440197 2.5454811453819275 39.455833435058594
+ 1.1733868569135666 2.2613125522620976 16.8917765468359 5.3852462326176465
+ 3.181564647704363 29.353778332471848 1.1345799793489279e-05
+ 22.38657046109438 45.70730099081993]
+*** Simulations Done! ***
+| param                    |             num | target    |
+|--------------------------+-----------------+-----------|
+| TC                       |      0.00001205 | 1e-06     |
+| Power                    |    423.25146000 | 200.0     |
+| vos                      |      0.00003300 | 4e-05     |
+| cmrrdc                   |    -52.10900000 | -80       |
+| dcgain                   |    133.59850000 | 130       |
+| GBW                      | 351062.70000000 | 1000000.0 |
+| phase_margin (deg)       |     61.08264000 | 60        |
+| PSRP                     |    -52.13609000 | -90       |
+| PSRN                     |   -102.38130000 | -90       |
+| sr                       | 163226.59950000 | 400000.0  |
+| settlingTime             |      0.00000662 | 5e-06     |
+| TC score                 |     -0.84674834 |           |
+| Power score              |     -0.35820447 |           |
+| vos score                |      0.00000000 |           |
+| cmrrdc score             |     -0.21112112 |           |
+| dcgain score             |      0.00000000 |           |
+| GBW score                |     -0.48031620 |           |
+| phase_margin (deg) score |      0.00000000 |           |
+| PSRP score               |     -0.26639195 |           |
+| PSRN score               |      0.00000000 |           |
+| sr score                 |     -0.42038746 |           |
+| settlingTime score       |     -0.13935534 |           |
+| Reward                   |     -2.72252488 |           |
+
+Step: 13/15000 | Episode: 0
+Current Episode Reward: -40.74
+Current Episode Length: 12
+
+==================================================
+Step: 13 | Episode: 0
+==================================================
+
+*** Actions with Noise sigma = 0.9940164725309134 ***
+ uniform distribution noise 
+Selected action: [-0.1729051  -0.5932961   0.3006411  -0.88648784 -0.59915566  0.42753372
+  0.8585244   0.6614588  -0.44097158  0.3509986   0.22871746 -0.49912667
+  0.25387904  0.7914983  -0.08769383 -0.6304481   0.07332501 -0.46162984
+ -0.17669778 -0.94376755 -0.36358398  0.50793004 -0.53917736 -0.33548006]
+==================================================
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_ACDC.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_Tran.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_ACDC.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_Tran.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_ACDC.log
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_Tran.log
+
+action: [4.428700763732195 1.211731806397438 32.86570669710636 1.0391827523708344
+ 1.201477587223053 35.97457604110241 9.32799081504345 3.407552883028984
+ 14.696196213364601 6.9172433987259865 2.6502555571496487
+ 200.1746654510498 6.455925442278385 3.6351220309734344 23.35150109604001
+ 2.2553715109825134 2.378318764269352 14.19006897509098 4.410685565322638
+ 0.6265230178833008 16.592192441225052 1.5817405343055725e-05
+ 12.290154725313187 17.280738428235054]
+*** Simulations Done! ***
+| param                    |             num | target    |
+|--------------------------+-----------------+-----------|
+| TC                       |      0.00001775 | 1e-06     |
+| Power                    |    699.54534000 | 200.0     |
+| vos                      |      0.00069630 | 4e-05     |
+| cmrrdc                   |    -42.87045000 | -80       |
+| dcgain                   |    129.03370000 | 130       |
+| GBW                      | 636023.00000000 | 1000000.0 |
+| phase_margin (deg)       |     49.67443000 | 60        |
+| PSRP                     |    -42.70065000 | -90       |
+| PSRN                     |    -76.98376000 | -90       |
+| sr                       | 355945.50800000 | 400000.0  |
+| settlingTime             |      0.00001071 | 5e-06     |
+| TC score                 |     -0.89334185 |           |
+| Power score              |     -0.55533092 |           |
+| vos score                |     -0.89134864 |           |
+| cmrrdc score             |     -0.30218454 |           |
+| dcgain score             |     -0.00373040 |           |
+| GBW score                |     -0.22247670 |           |
+| phase_margin (deg) score |     -0.09414747 |           |
+| PSRP score               |     -0.35643646 |           |
+| PSRN score               |     -0.07794914 |           |
+| sr score                 |     -0.05827734 |           |
+| settlingTime score       |     -0.36351280 |           |
+| Reward                   |     -3.81873625 |           |
+
+Step: 14/15000 | Episode: 0
+Current Episode Reward: -44.56
+Current Episode Length: 13
+
+==================================================
+Step: 14 | Episode: 0
+==================================================
+
+*** Actions with Noise sigma = 0.993519464294648 ***
+ uniform distribution noise 
+Selected action: [ 0.36994907 -0.6089075  -0.2126592   0.33738416 -0.02092895  0.3644296
+  0.48278484 -0.40918523  0.9643905   0.33343002 -0.8613838   0.09010769
+  0.2560362   0.74337983  0.08175579 -0.22959393 -0.10611901 -0.7024761
+  0.01510178  0.09430163 -0.33814493 -0.6266796   0.3170224  -0.40202194]
+==================================================
+
+action: [7.007258094847202 1.1844118386507034 20.28984972089529 6.852574780583382
+ 2.213374335784465 34.428525030612946 7.543227978050709 1.5339258462190628
+ 49.127567648887634 6.833792604506016 0.7425783574581146 318.0215373635292
+ 6.466171912848949 3.550914704799652 27.503016784787178 4.159428820014
+ 2.06429173797369 8.289335936307907 5.321733460295945 2.962178675457835
+ 17.215449258685112 6.173223406076433e-06 33.26704911887646
+ 15.650462359189987]
+*** Simulations Done! ***
+| param                    |             num | target    |
+|--------------------------+-----------------+-----------|
+| TC                       |      0.00000763 | 1e-06     |
+| Power                    |    331.89138000 | 200.0     |
+| vos                      |      0.00000290 | 4e-05     |
+| cmrrdc                   |    -62.78890000 | -80       |
+| dcgain                   |    130.74070000 | 130       |
+| GBW                      | 290136.80000000 | 1000000.0 |
+| phase_margin (deg)       |     57.39081000 | 60        |
+| PSRP                     |    -62.88540000 | -90       |
+| PSRN                     |   -102.03660000 | -90       |
+| sr                       |  88981.79955000 | 400000.0  |
+| settlingTime             |      0.00000811 | 5e-06     |
+| TC score                 |     -0.76812514 |           |
+| Power score              |     -0.24796676 |           |
+| vos score                |      0.00000000 |           |
+| cmrrdc score             |     -0.12053528 |           |
+| dcgain score             |      0.00000000 |           |
+| GBW score                |     -0.55022320 |           |
+| phase_margin (deg) score |     -0.02222653 |           |
+| PSRP score               |     -0.17735245 |           |
+| PSRN score               |      0.00000000 |           |
+| sr score                 |     -0.63605271 |           |
+| settlingTime score       |     -0.23729785 |           |
+| Reward                   |     -2.75977991 |           |
+
+Step: 15/15000 | Episode: 0
+Current Episode Reward: -47.32
+Current Episode Length: 14
+
+==================================================
+Step: 15 | Episode: 0
+==================================================
+
+*** Actions with Noise sigma = 0.9930227045625007 ***
+ uniform distribution noise 
+Selected action: [ 0.6758631  -0.8993012   0.7736121   0.08726619 -0.98988134 -0.311596
+  0.53746164 -0.13975953  0.90093356  0.00814686  0.273968    0.18821469
+ -0.38056397  0.51903117  0.9417735   0.5953766  -0.3698929   0.30711573
+ -0.02185088 -0.9903118  -0.78146833  0.6685045   0.12368503  0.9212464 ]
+==================================================
+
+action: [8.460349664092064 0.676222950220108 44.453496009111404 5.664514411240816
+ 0.5177076607942581 17.865897849202156 7.802942782640457
+ 2.0054208301007748 47.572872310876846 5.2886975791770965
+ 2.729444019496441 337.64293789863586 3.4423211216926575
+ 3.1583045423030853 48.5734501183033 8.078038901090622 1.6026874333620071
+ 33.024335473775864 5.146208310034126 0.5217984467744827 6.3540258705616
+ 1.718228805065155e-05 28.53028328716755 48.07053703069687]
+*** Simulations Done! ***
+| param                    |             num | target    |
+|--------------------------+-----------------+-----------|
+| TC                       |      0.00000600 | 1e-06     |
+| Power                    |    440.89272000 | 200.0     |
+| vos                      |      0.00028190 | 4e-05     |
+| cmrrdc                   |    -61.07069000 | -80       |
+| dcgain                   |    133.91000000 | 130       |
+| GBW                      | 658953.50000000 | 1000000.0 |
+| phase_margin (deg)       |     37.92515000 | 60        |
+| PSRP                     |    -61.17515000 | -90       |
+| PSRN                     |    -99.37052000 | -90       |
+| sr                       | 184427.51850000 | 400000.0  |
+| settlingTime             |      0.00000522 | 5e-06     |
+| TC score                 |     -0.71422383 |           |
+| Power score              |     -0.37587058 |           |
+| vos score                |     -0.75147561 |           |
+| cmrrdc score             |     -0.13418315 |           |
+| dcgain score             |      0.00000000 |           |
+| GBW score                |     -0.20557930 |           |
+| phase_margin (deg) score |     -0.22542575 |           |
+| PSRP score               |     -0.19067188 |           |
+| PSRN score               |      0.00000000 |           |
+| sr score                 |     -0.36886094 |           |
+| settlingTime score       |     -0.02174729 |           |
+| Reward                   |     -2.98803833 |           |
+
+Step: 16/15000 | Episode: 0
+Current Episode Reward: -50.31
+Current Episode Length: 15
+
+==================================================
+Step: 16 | Episode: 0
+==================================================
+
+*** Actions with Noise sigma = 0.9925261932102195 ***
+ uniform distribution noise 
+Selected action: [ 0.89789575 -0.33590192 -0.16348045  0.18964617 -0.146126    0.38479164
+  0.516218   -0.06661396 -0.3408498   0.47420502  0.5041213  -0.88520664
+  0.3012335   0.7128502   0.01559053  0.12012904 -0.82892966 -0.8702835
+ -0.33151436 -0.84953856  0.6063267  -0.6379981   0.84918207 -0.29269925]
+==================================================
+
+******
+** ngspice-44.2 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2024, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+******
+
+Batch mode
+
+Comments and warnings go to log-file: AMP_NMCF_ACDC.log
+
