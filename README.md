@@ -177,3 +177,10 @@ tensorboard --logdir runs/amp_ddpg_YYYYMMDD-HHMM # For DDPG training/evaluation
 ```
 
 Navigate to `http://localhost:6006` in your web browser.
+
+---
+
+## Acknowledgements
+
+*   This project utilizes and adapts code from the [AnalogGym repository](https://https://github.com/CODA-Team/AnalogGym).
+*   The Decision Transformer implementation is based on the paper: Chen, L., Lu, K., Rajeswaran, A., Lee, K., Grover, A., Laskin, M., Abbeel, P., Srinivas, A., & Mordatch, I. (2021). Decision Transformer: Reinforcement Learning via Sequence Modeling. [arXiv preprint arXiv:2106.01345](https://arxiv.org/abs/2106.01345).
