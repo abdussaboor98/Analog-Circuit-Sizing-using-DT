@@ -1,4 +1,4 @@
-# Analog Circuit Sizing using DDPG and Decision Transformer
+# Analog Circuit Sizing using Decision Transformer
 
 This project demonstrates how to use Deep Deterministic Policy Gradient (DDPG) and Decision Transformer (DT) for analog circuit sizing.
 
